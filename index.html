@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Start Setting Box -->
+    <div class="set-box">
+      <!-- Start Theme Color -->
+      <div class="set-box-main">
+        <div class="tool-section">
+          <h3>Colors</h3>
+          <ul class="color-pallet">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <!-- End Theme Color -->
+
+        <!-- Start Random Background -->
+        <div class="tool-section">
+          <h3>Background</h3>
+          <div class="landing-bg">
+            <button type="button" class="random active">Random</button>
+            <button type="button" class="static">Static</button>
+          </div>
+        </div>
+        <!-- End Random Background -->
+        <!-- Start Nav Bullets Control -->
+        <div class="tool-section">
+          <h3>Nav Bullets</h3>
+          <div class="landing-nb">
+            <button type="button" class="show active">Show</button>
+            <button type="button" class="hide">Hide</button>
+          </div>
+        </div>
+        <!-- End Nav Bullets Control -->
+        <!-- Start Reset Button -->
+        <button type="button" class="reset-options">Reset Options</button>
+        <!-- End Reset Button -->
+      </div>
+      <div class="set-box-gear">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </div>
+    <!-- End Setting Box -->
+
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="lp-overlay"></div>
+      <div class="container">
+        <div class="lp-header">
+          <div class="lp-logo">Special Design</div>
+          <div class="lp-links-container">
+            <button class="lp-toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="lp-menu">
+              <li><a href="#" class="lp-link" data-section=".about-us">About</a></li>
+              <li><a href="#" class="lp-link" data-section=".our-skills">Skills</a></li>
+              <li><a href="#" class="lp-link" data-section=".our-gallery">Gallery</a></li>
+              <li><a href="#" class="lp-link" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" class="lp-link" data-section=".features">Features</a></li>
+              <li><a href="#" class="lp-link" data-section=".testimonials">Testimonials</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="lp-body">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ut. Nobis culpa sapiente eius, asperiores
+          quod vitae impedit eos ipsum libero quis
+        </p>
+        <div class="app-available">
+          <p>OUR APP IS NOW AVAILABLE</p>
+          <button>GET THE APP NOW!</button>
+        </div>
+      </div>
+      <!-- Start Our Partners Section -->
+      <div class="lp-footer">
+        <h2>Our Partners</h2>
+        <div class="our-partners">
+          <img src="images/our-partners1.png" alt="" />
+          <img src="images/our-partners2.png" alt="" />
+          <img src="images/our-partners3.png" alt="" />
+          <img src="images/our-partners4.png" alt="" />
+          <img src="images/our-partners5.png" alt="" />
+          <img src="images/our-partners6.png" alt="" />
+        </div>
+      </div>
+      <!-- End Our Partners Section -->
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start About Us Section -->
+    <div class="container">
+      <h1>About Us</h1>
+      <div class="about-us">
+        <div class="about-text">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum consectetur debitis natus in illo nam,
+            quod consectetur beatae laborum quia repellendus magnam at natus labore quos suscipit placeat vitae, ab,
+            architecto quisquam consequatur ullam perferendis ipsa.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="images/about-us.jpg" alt="About Us Image" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us Section -->
+
+    <!-- Start Our Skills Section -->
+    <div class="our-skills">
+      <div class="container">
+        <h1>Our Skills</h1>
+        <div class="skills-box">
+          <div class="skill">
+            <h4 class="skill-name">HTML</h4>
+            <div class="skill-bar" data-progress="90%"></div>
+          </div>
+          <div class="skill">
+            <h4 class="skill-name">CSS</h4>
+            <div class="skill-bar" data-progress="80%"></div>
+          </div>
+          <div class="skill">
+            <h4 class="skill-name">JavaScript</h4>
+            <div class="skill-bar" data-progress="75%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills Section -->
+
+    <!-- Start Our Gallery Section -->
+    <div class="our-gallery">
+      <div class="container">
+        <h1>Our Gallery</h1>
+        <div class="gallery-box">
+          <img src="images/lp-background1.jpg" alt="Gallery Picture One" />
+          <img src="images/lp-background2.jpg" alt="Gallery Picture Two" />
+          <img src="images/lp-background3.jpg" alt="Gallery Picture Three" />
+          <img src="images/lp-background4.jpg" alt="Gallery Picture Four" />
+          <img src="images/lp-background5.jpg" alt="Gallery Picture Five" />
+          <img src="images/gallery1.jpg" alt="" />
+          <img src="images/gallery2.jpg" alt="" />
+          <img src="images/gallery3.jpg" alt="" />
+          <img src="images/gallery4.jpg" alt="" />
+          <img src="images/gallery5.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Our Gallery Section -->
+
+    <!-- Start Timeline Section -->
+    <div class="timeline">
+      <div class="container">
+        <div class="tl-content">
+          <div class="tl-middle-line"></div>
+          <div class="tl-main-box tl-left">
+            <div class="tl-year first-of-type">2018</div>
+            <div class="tl-text-box">
+              <h4>Testing Heading</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde dolor inventore dignissimos eum suscipit,
+                ratione amet corporis omnis doloribus magni tempore sint debitis esse reprehenderit quas voluptas harum
+                culpa similique.
+              </p>
+            </div>
+          </div>
+          <div class="tl-main-box tl-right">
+            <div class="tl-text-box tl-right">
+              <h4>Testing Heading</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde dolor inventore dignissimos eum suscipit,
+                ratione amet corporis omnis doloribus magni tempore sint debitis esse reprehenderit quas voluptas harum
+                culpa similique.
+              </p>
+            </div>
+          </div>
+          <div class="tl-main-box tl-left">
+            <div class="tl-year">2016</div>
+            <div class="tl-text-box">
+              <h4>Testing Heading</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde dolor inventore dignissimos eum suscipit,
+                ratione amet corporis omnis doloribus magni tempore sint debitis esse reprehenderit quas voluptas harum
+                culpa similique.
+              </p>
+            </div>
+          </div>
+          <div class="tl-main-box tl-left">
+            <div class="tl-text-box">
+              <h4>Testing Heading</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde dolor inventore dignissimos eum suscipit,
+                ratione amet corporis omnis doloribus magni tempore sint debitis esse reprehenderit quas voluptas harum
+                culpa similique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline Section -->
+
+    <!-- Start Features Section -->
+    <div class="container">
+      <div class="features">
+        <h1>Our Features</h1>
+        <div class="feat-content">
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="images/feature1.png" alt="" />
+            </div>
+            <h4>Development</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="images/feature2.png" alt="" />
+            </div>
+            <h4>Marketing</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="images/feature3.png" alt="" />
+            </div>
+            <h4>Hosting</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="images/feature4.png" alt="" />
+            </div>
+            <h4>Database</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="images/feature5.png" alt="" />
+            </div>
+            <h4>Cloud And Servers</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+          <div class="feat-box">
+            <div class="feat-img">
+              <img src="images/feature6.png" alt="" />
+            </div>
+            <h4>SEO</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Features Section -->
+
+    <!-- Start Testimonials Section -->
+    <div class="testimonials">
+      <div class="ts-bg">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+      </div>
+      <div class="container">
+        <div class="ts-body">
+          <h1>Testimonials</h1>
+          <div class="ts-content">
+            <div class="ts-box">
+              <p>I'm very happy with the product its amazing, I recieved it very fast and the price was amazing.</p>
+              <div class="ts-box-user">
+                <img src="/images/testimonials3.jpg" alt="" />
+                <div class="ts-user-info">
+                  <span class="ts-user-name">Mostafa Ahmed</span>
+                  <span class="ts-user-title">CEO At Company</span>
+                </div>
+              </div>
+            </div>
+            <div class="ts-box">
+              <p>I'm very happy with the product its amazing, I recieved it very fast and the price was amazing.</p>
+              <div class="ts-box-user">
+                <img src="/images/testimonials2.jpg" alt="" />
+                <div class="ts-user-info">
+                  <span class="ts-user-name">Selim Mostafa</span>
+                  <span class="ts-user-title">CEO At Company</span>
+                </div>
+              </div>
+            </div>
+            <div class="ts-box">
+              <p>I'm very happy with the product its amazing, I recieved it very fast and the price was amazing.</p>
+              <div class="ts-box-user">
+                <img src="/images/testimonials1.jpg" alt="" />
+                <div class="ts-user-info">
+                  <span class="ts-user-name">Fatma Yahia</span>
+                  <span class="ts-user-title">CEO At Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials Section -->
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="bullet-tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".our-skills">
+        <div class="bullet-tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".our-gallery">
+        <div class="bullet-tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="bullet-tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="bullet-tooltip">Our Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="bullet-tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <!-- Start Contact Us Section -->
+    <div class="contact-us">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-form">
+          <form action="">
+            <div class="left-form">
+              <input type="text" name="name" id="name" placeholder="Your Name" />
+              <input type="tel" name="phone" id="phone" placeholder="Your Phone" />
+              <input type="email" name="mail" id="mail" placeholder="Your Email" />
+              <input type="text" name="subject" id="subject" placeholder="Subject" />
+            </div>
+            <div class="right-form">
+              <textarea placeholder="Your Message"></textarea>
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Us Section -->
+    <!-- Start Footer Section -->
+    <div class="main-footer">
+      <p>Created with love by Mostafa Ahmed &trade;</p>
+    </div>
+    <!-- End Footer Section -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
