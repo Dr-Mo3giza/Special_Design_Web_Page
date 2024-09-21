@@ -113,7 +113,7 @@ if (bgStatus !== "false") {
   // Changing Background Each 5 sec
   randomBgInterval = setInterval(() => {
     let randomIndex = Math.floor(Math.random() * bgArr.length);
-    landingPage.style.backgroundImage = `url(../images/${bgArr[randomIndex]})`;
+    landingPage.style.backgroundImage = `url(images/${bgArr[randomIndex]})`;
     staticBg.classList.remove("active");
     randomBg.classList.add("active");
   }, 5000);
