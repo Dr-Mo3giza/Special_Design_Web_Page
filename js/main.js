@@ -72,7 +72,7 @@ randomBg.addEventListener("click", () => {
   // Set New Interval ID
   randomBgInterval = setInterval(() => {
     let randomIndex = Math.floor(Math.random() * bgArr.length);
-    landingPage.style.backgroundImage = `url(../images/${bgArr[randomIndex]})`;
+    landingPage.style.backgroundImage = `url(images/${bgArr[randomIndex]})`;
   }, 5000);
 });
 
